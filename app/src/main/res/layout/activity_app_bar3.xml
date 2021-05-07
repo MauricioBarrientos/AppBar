@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+
+        android:layout_height="192dp"
+        android:layout_width="match_parent">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"
+            app:toolbarId="@+id/toolbar">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="enterAlwaysCollapsed"></androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, cum molestiae voluptatem voluptatibus error quam laudantium quos dignissimos eveniet id repudiandae fugiat explicabo ut harum, saepe ad nobis eos magnam.     Vel, eos, iure assumenda ipsam ea eum rem fugiat aspernatur, aut qui odio voluptate natus similique sed? Pariatur repellendus assumenda molestiae quas beatae, ratione iste unde voluptatem? Placeat, esse. Eveniet.     Amet error rem accusamus enim suscipit eveniet culpa dolore quasi illum iste eligendi harum, nulla repudiandae sunt, qui porro est quis libero aut totam, natus quidem consequuntur! Quidem, architecto quasi.     Esse neque qui ullam numquam cumque reiciendis, inventore quod dicta dolore, a dolores vitae quasi illum iste quidem sit? Voluptatum praesentium numquam sequi enim itaque pariatur libero beatae eveniet laudantium.     Beatae at eius mollitia, reprehenderit temporibus eligendi iste illum libero repellendus veniam, ab incidunt ratione quis quae iure, enim aliquam possimus adipisci excepturi eum. Obcaecati nisi magni eaque placeat veritatis.     Tempore, corrupti vel. Repudiandae quam ducimus veniam eaque tempora temporibus quas minus dolore assumenda fugit quisquam provident dolorum iste, id adipisci exercitationem. Explicabo ad nobis provident rem, quae nostrum reprehenderit.     Id, architecto sapiente doloremque repellat consequatur ducimus hic ipsum distinctio, asperiores, quas rem non laboriosam! Illum laudantium beatae similique voluptate sapiente, ipsam expedita, vel enim, quisquam quibusdam aliquid autem quos!     Accusamus ab ea natus quaerat, impedit ipsa vitae, esse et mollitia inventore quidem provident nulla tempore voluptate placeat quod? Quisquam tempora harum tempore nostrum sint non maiores soluta eos optio?     Fugiat quia reiciendis dolorum, iusto non inventore aperiam tenetur accusamus eum quae quas expedita id fuga mollitia, eos deleniti enim sapiente quos corporis delectus iste eaque quam impedit? Fuga, vero?     Hic earum molestiae dolor, amet aperiam velit beatae aliquam quidem distinctio dignissimos illo ipsam dicta optio numquam placeat. Illum, dolore accusamus! Reiciendis eaque asperiores debitis error incidunt, sequi odio enim?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, cum molestiae voluptatem voluptatibus error quam laudantium quos dignissimos eveniet id repudiandae fugiat explicabo ut harum, saepe ad nobis eos magnam.     Vel, eos, iure assumenda ipsam ea eum rem fugiat aspernatur, aut qui odio voluptate natus similique sed? Pariatur repellendus assumenda molestiae quas beatae, ratione iste unde voluptatem? Placeat, esse. Eveniet.     Amet error rem accusamus enim suscipit eveniet culpa dolore quasi illum iste eligendi harum, nulla repudiandae sunt, qui porro est quis libero aut totam, natus quidem consequuntur! Quidem, architecto quasi.     Esse neque qui ullam numquam cumque reiciendis, inventore quod dicta dolore, a dolores vitae quasi illum iste quidem sit? Voluptatum praesentium numquam sequi enim itaque pariatur libero beatae eveniet laudantium.     Beatae at eius mollitia, reprehenderit temporibus eligendi iste illum libero repellendus veniam, ab incidunt ratione quis quae iure, enim aliquam possimus adipisci excepturi eum. Obcaecati nisi magni eaque placeat veritatis.     Tempore, corrupti vel. Repudiandae quam ducimus veniam eaque tempora temporibus quas minus dolore assumenda fugit quisquam provident dolorum iste, id adipisci exercitationem. Explicabo ad nobis provident rem, quae nostrum reprehenderit.     Id, architecto sapiente doloremque repellat consequatur ducimus hic ipsum distinctio, asperiores, quas rem non laboriosam! Illum laudantium beatae similique voluptate sapiente, ipsam expedita, vel enim, quisquam quibusdam aliquid autem quos!     Accusamus ab ea natus quaerat, impedit ipsa vitae, esse et mollitia inventore quidem provident nulla tempore voluptate placeat quod? Quisquam tempora harum tempore nostrum sint non maiores soluta eos optio?     Fugiat quia reiciendis dolorum, iusto non inventore aperiam tenetur accusamus eum quae quas expedita id fuga mollitia, eos deleniti enim sapiente quos corporis delectus iste eaque quam impedit? Fuga, vero?     Hic earum molestiae dolor, amet aperiam velit beatae aliquam quidem distinctio dignissimos illo ipsam dicta optio numquam placeat. Illum, dolore accusamus! Reiciendis eaque asperiores debitis error incidunt, sequi odio enim?" />
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
