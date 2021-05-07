@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
+    String mensaje = "mensaje de prueba desde android studio hacia github";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
