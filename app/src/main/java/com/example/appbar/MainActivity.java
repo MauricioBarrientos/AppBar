@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
+    int a = 3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
